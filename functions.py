@@ -22,4 +22,20 @@ output:
 NameError: name 'hello' is not defined
 
 Process finished with exit code 1  
+
+// function with  arguments
+
+def print_print(word):
+    print(word+"!")
+
+print_print("spam")
+print_print("eggs")
+print_print("python")
+
+output:
+    
+spam!
+eggs!
+python!
+
             
