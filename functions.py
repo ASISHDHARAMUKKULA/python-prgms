@@ -38,4 +38,18 @@ spam!
 eggs!
 python!
 
+
+// returning values from functions
+
+def add_numbers(x,y):
+    total=x+y
+    return total
+    print("hello")
+
+
+print(add_numbers(4,5))
+
+output:9
+    
+    
             
