@@ -16,10 +16,20 @@ output:4
   
 // index method: this returns the first occurrence of n item in the list
   
-  letters =["P","q","r","p"]
+letters =["P","q","r","p"]
 print(letters.index("r"))
 print(letters.index("p"))
 
 ouput:
   2
   3
+
+  
+  inser method:it is similar to append but we can insert anywhere in the list
+    
+words=["harry","good boy"]
+words.insert(1,"is")
+print(words)
+
+output:
+  ['harry', 'is', 'good boy']
