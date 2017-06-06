@@ -13,3 +13,13 @@ nums=[1,2,3,4]
 print(len(nums))
 
 output:4
+  
+// index method: this returns the first occurrence of n item in the list
+  
+  letters =["P","q","r","p"]
+print(letters.index("r"))
+print(letters.index("p"))
+
+ouput:
+  2
+  3
