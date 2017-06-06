@@ -51,5 +51,20 @@ print(add_numbers(4,5))
 
 output:9
     
+ // assigning Function to a variable.
+    
+    def multiply(x,y):
+    return x*y
+
+a=4
+b=5
+operation = multiply
+print(operation(a,b))
+
+
+output:20
+    
+    
+    
     
             
