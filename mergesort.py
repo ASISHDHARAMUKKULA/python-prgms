@@ -15,8 +15,15 @@ def merge(A,B):
             C.append(B[j])
             j=j+1
     return C
-A=list(range(0,10,2))
-B=list(range(11,20,2))
-d=merge(A,B)
+def mergesort(A,left,right):
+    if right-left<=1:
+        return A[left:right]
+    if right-left>1:
+        mid=(left+right)//2
+        L=mergesort(A,left,mid)
+        R=mergesort(A,mid,right)
+    return merge(L,R)
+A=[1,3,7,2,9,4]
+d=mergesort(A,0,len(A))
 print (d)
 
