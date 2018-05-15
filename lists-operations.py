@@ -1,0 +1,16 @@
+sub=['phy','mat']
+games=['ball','basket']
+sub.append('chem')
+#print(sub)
+sub.insert(1,'his')
+#print(sub)
+sub.extend(games)
+print(sub)
+sub.reverse()
+print(sub)
+sub.remove('mat')
+print(sub)
+sub.reverse()
+print(sub)
+print(sub+games)
+print(sub*3)
