@@ -1,0 +1,11 @@
+football=('hazard','lampard','baseball')
+cricket=('dravid','pointing','john')
+#football.append('jwala')
+print(football[1])
+print(football.index('lampard'))
+print(football[0:2])
+foocrick=football+cricket
+print(foocrick)
+print(football*3)
+print(football.count('lampard'))
+print(football.__len__())
