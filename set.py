@@ -1,0 +1,14 @@
+integers={1,2,3,4,5}
+print(integers)
+integers.discard(5)
+print(integers)
+real={7,8,9}
+print(integers|real)
+print(integers&real)
+print(integers-real)
+print(integers^real)
+integers=[1,2,3,4,4,5,6,7]
+q=set(integers)
+print(q)
+t=tuple(integers)
+print(t)
